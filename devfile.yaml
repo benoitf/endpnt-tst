@@ -18,6 +18,7 @@ components:
       endpoints:
         - exposure: public
           name: dev
+          secure: true
           protocol: http
           targetPort: 8000
 commands:
